@@ -2,8 +2,8 @@
 
 // Premiere ligne
 
-
-echo "Bienvenue". ;
+print_r($_POST);
+echo "Bienvenue"." " . $_POST['fname'] ;
 
 
 
